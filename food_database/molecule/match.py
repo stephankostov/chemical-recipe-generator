@@ -13,7 +13,7 @@ sys.path.append(str(root))
 # %% ../../notebooks/08-molecule-db-join.ipynb 6
 import pandas as pd
 
-from ..density.food_join import *
+from ..density.food_match import *
 from ..utils.utils import *
 from ..utils.join_utils import *
 

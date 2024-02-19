@@ -22,8 +22,8 @@ Using these, a dataset was created for 1.5 million recipes with an entry of each
 # Progress
 
 - [x] Dataset Compilation
-    - [x] Ingredients -> Density DB's join
-    - [x] Ingredients -> Molecule DB's join
+    - [x] Ingredients -> Density DB's matching
+    - [x] Ingredients -> Molecule DB's matching
     - [x] Final Dataset Formatting
 - [ ] Dataset Analysis
 - [ ] Model Training

@@ -7,7 +7,7 @@ from food_database.utils.parallel import *
 from food_database.recipes.create import *
 from food_database.utils.utils import *
 from food_database.utils.join_utils import *
-from food_database.density.food_join import *
+from food_database.density.food_match import *
 from food_database.utils.logger import *
 from food_database.utils.full_run_utils import *
 

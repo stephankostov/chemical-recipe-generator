@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 
 import json
 
-from .join import *
-from ..density.food_join import *
+from .match import *
+from ..density.food_match import *
 
 from functools import reduce
 
