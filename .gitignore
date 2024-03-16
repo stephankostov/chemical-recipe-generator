@@ -5,6 +5,7 @@
 .log
 .vscode
 .DS_Store
+dask.log
 
 misc
 
