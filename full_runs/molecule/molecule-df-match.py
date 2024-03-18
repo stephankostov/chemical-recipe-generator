@@ -63,7 +63,7 @@ def main():
 
     logger.info("Loading dataframes")
     expanded_ingredients_df = pd.read_feather(select_last_file(f'{root}/data/local/recipe/full/expanded_ingredients'), dtype_backend='pyarrow')
-    food_df = pd.read_feather(f'{root}/data/local/molecule/full/food/1_preprocessed.feather')
+    food_df = pd.read_feather(f'{root}/data/local/molecule/full/food/1_processed.feather')
 
     logger.info(f"# COMMENCING STAGE {0}: (JOIN PRIMARY) #")
     food_ids = load_or_create_dataframe(
