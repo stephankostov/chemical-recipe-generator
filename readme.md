@@ -11,19 +11,15 @@ Tool to create cooking recipes using data for the molecular composition of ingre
 
 Using these, a dataset was created for 1.5 million recipes with an entry of each ingredient with fields for the 5000 measured molecular compound concentrations.
 
-
 # Development Process
 
-1. Initial development (using small dataframe samples) [./notebooks](./notebooks)
-2. Core functions automatically exported into modules using [nbdev](https://nbdev.fast.ai/getting_started.html)
-2. Testing framework run [./tests](./full_tests)
-3. Full dataframe pipelines [./full_runs](./full_runs)
+See readme of each section for information.
 
 # Progress
 
-- [x] Dataset Compilation
+- [x] Dataset Creation [./dataset_creation](./dataset_creation/)
     - [x] Ingredients -> Density DB's matching
     - [x] Ingredients -> Molecule DB's matching
     - [x] Final Dataset Formatting
-- [ ] Dataset Analysis
-- [ ] Model Training
+    - [x] Dataset analysis
+- [ ] Model Training [./model_training](./model_training/)
