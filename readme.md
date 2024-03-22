@@ -17,9 +17,9 @@ See readme of each section for information.
 
 # Progress
 
-- [x] Dataset Creation [./dataset_creation](./dataset_creation/)
+- [x] [Dataset Creation](https://github.com/stephankostov/recipe-generator-dataset)
     - [x] Ingredients -> Density DB's matching
     - [x] Ingredients -> Molecule DB's matching
     - [x] Final Dataset Formatting
     - [x] Dataset analysis
-- [ ] Model Training [./model_training](./model_training/)
+- [ ] [Model Training](https://github.com/stephankostov/recipe-generator)
