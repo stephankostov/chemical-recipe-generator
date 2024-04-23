@@ -10,9 +10,9 @@ Tool to create cooking recipes using data for the molecular composition of ingre
         - Structuring appropriately
         - Handling NA values
     - Fuzzy Matching datasets by food name
+        - Creation of generalised framework for Fuzzy Matching Datasets including testing for evaluation of iterations
         - Recipe -> Density DB
         - Recipe -> Molecule DB
-        - Created generalised framework for Fuzzy Matching Datasets
     - Feature Engineering 
         - Parsing ingredient features from unstructured ingredient strings with Named Entity Recognition model
         - Feature selection of most relevant molecule compounds based on various criteria
@@ -21,6 +21,7 @@ Tool to create cooking recipes using data for the molecular composition of ingre
 - [ML Modelling](https://github.com/stephankostov/recipe-generator-models)
     - Analysis of possible models for the problem
         - Problem split into two: token generation and weight prediction
+        - Analysis of specific loss function for training procedures
     - Custom implementation of both autoregressive (GPT) and nonautoregressive (BERT) models in PyTorch
         - Use of moleculer compound dataset in vectorisation of food tokens
         - Change of outputs to suit each problem
