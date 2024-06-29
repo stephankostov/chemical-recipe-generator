@@ -1,6 +1,6 @@
 Tool to create cooking recipes using data of ingredients' molecular compositions.
 
-# Homepage
+# Home
 
 A readme homapage for the two repositories of this project:
 
